@@ -31,6 +31,30 @@ and open the template in the editor.
     line-height: 1.5em;
 }
 
-#content td, #content table {
+table, th, td {
+    padding: 0.5em;
     border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.question {
+    font-style: italic;
+}
+
+.answer {
+    margin-bottom: 3em;
+}
+
+#sponsors {
+    width: 800px;
+}
+#sponsors img {
+    height: 100px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+#sponsors img:hover {
+    border: 2px solid grey;
+    margin-bottom: 0px;
 }
